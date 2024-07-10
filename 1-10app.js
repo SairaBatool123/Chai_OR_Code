@@ -147,3 +147,4 @@ var nullValue = null
 console.log(typeof(nullValue)) //object
 
 // TypeOf Operator... https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+
