@@ -1,78 +1,35 @@
-/*Prefer not to use var because of issuse in block scope and functional scope */
-console.log("Saira")
-
-// Variable
-const accountId = 123345;
-let accountEmail = "sairabatool787@gmail.com";
-var accountPassword = "Saira123gggg";
-let acountstate;
-
-// accountPassword = 23
-// accountEmail = "sajidabaool123@gmail.com";
-// console.log(accountEmail);
-// console.log(accountPassword);
-
-// const accountId = 123345;
-// accountId = 3; //not allowed
-// console.log(accountId) //Error because const mai update nhi ho sakta
-
-
-console.table([accountId,accountEmail,accountPassword,acountstate])
-
-// "use strict"; treat all JS code as newer version
-
-// alert("Hello") // not run on terminal we will write on console
-// alert(3+3) //we are using nodejs , not a browser
-
-
-// DataType
-let name ="Saira"
-let age = 18;
-let isLoggedIn = false;
-
-// number = 2 to power of 53
-// bigint  trading,stockmarking
-// string = ""
-// boolean = true / false ;
-// null //represent empty value Or we assign var name = null
-// undefined not define in variable or variable declear kr k chor diya or nichye call ker liya
-//symbol uniquness
-// object console.log(typeof null); //object
-
-// let score = "33";
-// console.log(typeof score); 
-// console.log(typeof(score)); //Method
-
 // ............Converstion..............
 
-// let valueIntNumber = Number(score);
-// console.log(typeof (valueIntNumber))
+let valueIntNumber = Number(score);
+console.log(typeof (valueIntNumber))
 
-// // Be Carefull (INVESTIGATION)
-// let score1 = "33abc"; //put this and answer it true=1 false/null=0 undefined=NaN string not converting "sana" = NaN
-// let valueIntNumber1 = Number(score1);
-// console.log(typeof (valueIntNumber1)) //number?
-// console.log(valueIntNumber1) //NaN
+// Be Carefull (INVESTIGATION OF NaN)
+let score1 = "33abc"; //put this and answer it true=1 false/null=0 undefined=NaN string not converting "sana" = NaN
+let valueIntNumber1 = Number(score1);
+console.log(typeof (valueIntNumber1)) //number?
+console.log(valueIntNumber1) //NaN
 
+//"33"=> 33
+//"33abc" => NaN
 // 1 = true
 // 0 = false
 // "" = false
 // "sana" = true
 
-// let string = "saira"
-// let conversionString = Boolean(string)
-// console.log(conversionString);
-// console.log(typeof conversionString)
+let string = "saira"
+let conversionString = Boolean(string)
+console.log(conversionString);
+console.log(typeof conversionString)
 
-// let numberIs = 4
-// let stringNum = String(4)
-// console.log(stringNum)
-// console.log(typeof(stringNum))
+let numberIs = 4
+let stringNum = String(4)
+console.log(stringNum)
+console.log(typeof(stringNum))
 
 // ............Operation..............
-// let value = 3
-// let negValue = -value
-// console.log(negValue) //-3
+let value = 3
+let negValue = -value
+console.log(negValue) //-3
 
 // Basic Operations / Arithmetic Operations
 
@@ -96,6 +53,7 @@ console.log((2+3) * 4 % 2)
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
 
 // ............Comparision..............
+
 // console.log(2>1)
 // console.log(2<1)
 // console.log(2<=1)
