@@ -33,7 +33,7 @@ let myTimeStamp = Date.now() //1720832786313 in milisecond
 console.log(myTimeStamp) 
 console.log(myTimeStamp1) 
 console.log(myCreateDate.getTime()); //1674414000000 use for comparison from 1 jan
-console.log(Math.floor(Date.now()/1000)); //milisec convert in second it gives decimal value OrMath.Round()
+console.log(Math.floor(Date.now()/1000)); //milisec convert in second it gives decimal value Or Math.Round()
 
 
 let newDate = new Date()

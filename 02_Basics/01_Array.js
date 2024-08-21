@@ -64,41 +64,4 @@ console.log(Array.from({name: "saira"}));  // nhi bana paye ga to [] dye ga
 let score1 = 100;
 let score2 = 200;
 let score3 = 300;
-console.log(Array.of(score1,score2,score3)); // [ 100, 200, 300 ]
-
-//Functions
-function sayMyName(){
-
-}
-
-// reference //execution() 
-sayMyName()
-
-function addTwoNum(num1,num2){ //(parameters)
-    console.log(num1 + num2)
-}
-addTwoNum() //NaN (Argument)
-addTwoNum(3,7) //10
-
-function addTwoNum(num1,num2){ 
-    // var result = num1 + num2
-    console.log("saira")
-    // return result
-    // OR 
-    return num1 + num2
-    }
-
-function addTwoNum(num1,num2){ 
-// var result = num1 + num2
-// return result
-// OR 
-return num1 + num2
-}
-const result = addTwoNum(3,5)
-console.log("Result Is", result) //Result Is 8
-
-
-function Userpass(usernameIs){
-    return usernameIs + " Your Password in your username"
-}
-console.log(Userpass("Saira")) // OR  console.log(Userpass())
+console.log(Array.of(score1,score2,score3)); // [ 100, 200, 300 ];

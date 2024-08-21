@@ -96,7 +96,7 @@ console.log(bigNumber) //1234454354657678n
 
 var heros = ["salman khan" , "fahad" , "fawad"]
 
-// what ever in parenthesis {} we called as objects key-values
+// what ever in breces {} we called as objects key-values
 let myObj = {
     greeting : "Hi",
     age : 20,

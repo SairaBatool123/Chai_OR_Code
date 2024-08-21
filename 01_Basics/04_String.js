@@ -6,7 +6,7 @@ var lastNo = 30;
 console.log("Your" + name + lastNo); //Yoursana30
 console.log(`Your ${name} ${lastNo}`);
 
-// Modern Way String Interpolation placeholder
+// Modern Way String Interpolation placeholder (string literals / template literals)
 console.log(`Hello My Name is ${name} and my lastNo is ${lastNo}`) //Hello My Name is sana and my lastNo is 30
 
 // another way of declared variable in js
