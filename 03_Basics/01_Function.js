@@ -78,35 +78,35 @@ console.log(returnSecValue(myNewArry));
 console.log(returnSecValue[200,300,40,500]); //400
 
 
-// function one() {
-//     const username = "saira"
-//     function two() {
-//         const website = "youtube"
-//         console.log(username);
-//     }
-//     // console.log(website);//error
-//     two()
-// }
-// one()
+function one() {
+    const username = "saira"
+    function two() {
+        const website = "youtube"
+        console.log(username);
+    }
+    // console.log(website);//error
+    two()
+}
+one()
 
-// if(true){
-//     const userName = "sana"
-//     if(userName === "saira"){
-//         const website = " youtube"
-//         console.log(userName + website);
-//     }
-//     console.log(website);
-// }
-// console.log(userName);
+if(true){
+    const userName = "sana"
+    if(userName === "saira"){
+        const website = " youtube"
+        console.log(userName + website);
+    }
+    console.log(website);
+}
+console.log(userName);
 
-// //  2 techniques
-// function addone(num){
-//     return num + 1
-// }
-// addone(5)
+//  2 techniques
+function addone(num){
+    return num + 1
+}
+addone(5)
 
-// // variable mai bhi store kia ja sakta hai
-// const addTwo = function(num){
-//     return num + 2
-// }
-// addTwo(5)
+// variable mai bhi store kia ja sakta hai
+const addTwo = function(num){
+    return num + 2
+}
+addTwo(5)
