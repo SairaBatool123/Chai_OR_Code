@@ -60,7 +60,23 @@ const user = {
     name: "saira", 
     price: 99
 }
-function 
+function handleObject(anyobject){
+console.log(`User name is ${anyobject.name} and price is ${anyobject.price}`)
+}
+// handleObject(user)
+// OR 
+handleObject({
+    user:"ali",
+    price : 122
+})
+
+const myNewArry = [200,300,40,500]
+function returnSecValue(){
+    return getArray[1]
+}
+console.log(returnSecValue(myNewArry));
+console.log(returnSecValue[200,300,40,500]); //400
+
 
 // function one() {
 //     const username = "saira"
