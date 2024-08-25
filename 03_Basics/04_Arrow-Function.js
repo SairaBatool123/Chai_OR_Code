@@ -70,3 +70,14 @@ console.log(addTwo3(2, 2)); //{ loginName: 'saira' }
 // ArrayIs.forEach(function(){})
 // ArrayIs.forEach(() => {})
 // ArrayIs.forEach(() => ())
+
+
+//Immediately invoked function expression (IIFF)
+function code(){
+    console.log(`DB CONNECTED`);
+}
+code()
+// OR 
+(function code(){
+    console.log(`DB CONNECTED`);
+})()
