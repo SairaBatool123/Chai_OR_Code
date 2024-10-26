@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand logoname" href="#">Photo<span>R</span>ealm</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto mb-lg-2 mb-lg-0 gap-lg-5">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-black" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-black" href="#">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-black" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <button class="btn" type="submit">Search</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <header>
+        </header>
+        <section>
+            <div class="row">
+                <div class="col-6">
+                    <div class="div">
+                        <h1 class="font col-lg-10 col-sm-12 text-center fw-bold p-lg-5 p-sm-3 m-auto">Capturing the
+                            moments that captivate your heart.</h1>
+                        <div class="col-8 m-auto">
+                            <form class="d-flex d-block" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- data-filter="*" -->
+        <section>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="btn fs-4 rounded-0 w-100">Categories</h1>
+                    <div class="gallery-items">
+                        <ul class="navbar-nav newSec fs-5 fw-bold d-flex flex-row gap-5 justify-content-center p-4 ">
+                            <li class="nav-link active" data-filter="*">
+                                All
+                            </li>
+                            <li class="nav-link nature" data-filter="nature">
+                                Nature
+                            </li>
+                            <li class="nav-link Faishon" data-filter="Faishon">
+                                Faishon
+                            </li>
+                            <li class="nav-link Wedding" data-filter="Wedding">
+                                Wedding
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <div class="col-10 d-flex gap-2 m-auto">
+                <div class="item nature">
+                    <img class="img-fluid rounded-3" src="./photopix/photopix/p1.jpg" alt="nature">
+                </div>
+                <div class="item nature">
+                    <img class="img-fluid rounded-3" src="./photopix/photopix/p2.jpg" alt="nature">
+                </div>
+                <div class="item nature">
+                    <img class="img-fluid rounded-3" src="./photopix/photopix/p3.jpg" alt="nature">
+                </div>
+                <div class="item nature">
+                    <img class="img-fluid rounded-3" src="./photopix/photopix/p4.jpg" alt="nature">
+                </div>
+            </div>
+            <div class="col-10 d-flex gap-2 m-auto mt-2">
+                <div class="item fashion">
+                    <img class="img-fluid rounded-3" src="./photopix/photopix/p5.jpg" alt="fashion">
+                </div>
+                <div class="item nature">
+                    <img class="img-fluid rounded-3" src="./photopix/photopix/p6.jpg" alt="nature">
+                </div>
+                <div class="item wedding">
+                    <img class="img-fluid rounded-3" src="./photopix/photopix/p7.jpg" alt="wedding">
+                </div>
+                <div class="item fashion">
+                    <img class="img-fluid rounded-3" src="./photopix/photopix/p8.jpg" alt="fashion">
+                </div>
+            </div>
+        </section>
+        <section class="member">
+            <div class="col-10 text-center m-auto logoname mt-5">
+                <h1>Our<span class="fw-bold">Information</span></h1>
+                <p>WHAT OUR LEADER SAYS!?</p>
+                <img src="./photopix/photopix/member.png" alt="">
+                <p class="mt-3">Doing gym is good for healthy life,it helps our body to fit.It release stress from our
+                    mind. Similarly capture all the things that are close to your heart make a happy life for us and all
+                    the memories we capture by ouseleves.</p>
+                <h3>ANITA SHAFEEQA GUL</h3>
+                <div class="col-12 d-flex justify-content-center mb-3">
+                    <img class="img-fluid" src="./photopix/photopix/icon1.png" alt="" width="80" height="80">
+                    <img class="img-fluid" src="./photopix/photopix/icon2.png" alt="" width="80" height="80">
+                    <img class="img-fluid" src="./photopix/photopix/icon3.png" alt="" width="80" height="80">
+                    <img class="img-fluid" src="./photopix/photopix/icon4.png" alt="" width="80" height="80">
+                </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center flex-wrap images">
+                <img src="./photopix/photopix/s1.jpg" alt="" class="img-fluid img rounded-3" width="180">
+                <img src="./photopix/photopix/s2.jpg" alt="" class="img-fluid img rounded-3" width="180">
+                <img src="./photopix/photopix/s3.jpg" alt="" class="img-fluid img rounded-3" width="180">
+                <img src="./photopix/photopix/s4.jpg" alt="" class="img-fluid img rounded-3" width="180">
+                <img src="./photopix/photopix/s5.jpg" alt="" class="img-fluid img rounded-3" width="180">
+                <img src="./photopix/photopix/s6.jpg" alt="" class="img-fluid img rounded-3" width="180">
+            </div>
+        </section>
+        <!-- footer  -->
+         <!-- Footer -->
+<footer class="bg-body-tertiary text-center">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div data-mdb-input-init class="form-outline mb-4">
+                <input type="email" id="form5Example24" class="form-control" />
+                <label class="form-label" for="form5Example24">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum
+          harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a class="text-body" href="#!">Link 1</a>
+              </li>
+              <li>
+                <a class="text-body" href="#!">Link 2</a>
+              </li>
+              <li>
+                <a class="text-body" href="#!">Link 3</a>
+              </li>
+              <li>
+                <a class="text-body" href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a class="text-body" href="#!">Link 1</a>
+              </li>
+              <li>
+                <a class="text-body" href="#!">Link 2</a>
+              </li>
+              <li>
+                <a class="text-body" href="#!">Link 3</a>
+              </li>
+              <li>
+                <a class="text-body" href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a class="text-body" href="#!">Link 1</a>
+              </li>
+              <li>
+                <a class="text-body" href="#!">Link 2</a>
+              </li>
+              <li>
+                <a class="text-body" href="#!">Link 3</a>
+              </li>
+              <li>
+                <a class="text-body" href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a class="text-body" href="#!">Link 1</a>
+              </li>
+              <li>
+                <a class="text-body" href="#!">Link 2</a>
+              </li>
+              <li>
+                <a class="text-body" href="#!">Link 3</a>
+              </li>
+              <li>
+                <a class="text-body" href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2020 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
